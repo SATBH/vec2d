@@ -121,4 +121,6 @@ struct __vector_namespace {
  **/
 struct __vector_namespace
 load_vector_library(void);
+
+#define LOAD_VEC2D(name) struct __vector_namespace name = load_vector_library();
 #endif
