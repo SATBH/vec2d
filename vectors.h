@@ -111,7 +111,7 @@ struct __vector_namespace {
   point_t (*point_on_line_with_x)(line_t, double);
   /*
    * Finds point on line with give y coordinate for non
-   * vertical lines.
+   * horizontal lines.
    */
   point_t (*point_on_line_with_y)(line_t, double);
 };
